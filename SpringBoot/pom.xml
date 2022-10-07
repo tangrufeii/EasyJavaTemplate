@@ -65,6 +65,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+        <!--图片验证码-->
+        <dependency>
+            <groupId>com.github.whvcse</groupId>
+            <artifactId>easy-captcha</artifactId>
+            <version>1.6.2</version>
+        </dependency>
 
     </dependencies>
 
@@ -94,6 +100,4 @@
 
         <finalName>SpringBoot</finalName>
     </build>
-
-
 </project>

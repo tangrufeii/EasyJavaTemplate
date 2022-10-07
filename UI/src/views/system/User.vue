@@ -198,7 +198,7 @@
             /** 获取列表数据方法 */
             getList() {
                 this.loading = true;
-                this.$http.post("/sysUser/pagelist", this.queryParams).then(result => {
+                this.$http.post("/jiuzhe/system/sysUser/pagelist", this.queryParams).then(result => {
                     this.tableDataList = result.data.data.rows;
                     this.total = result.data.data.total;
                     this.loading = false;  //关闭加载圈
@@ -261,12 +261,12 @@
                 this.$refs["addFormRef"].validate(valid => {
                     if (valid) {
                         if (this.addForm.id != undefined) {
-                            this.$http.post("/sysUser/update", this.addForm).then(result => {
+                            this.$http.post("/jiuzhe/system/sysUser/update", this.addForm).then(result => {
                                 this.open = false;
                                 this.getList();
                             });
                         } else {
-                            this.$http.post("/sysUser/save", this.addForm).then(result => {
+                            this.$http.post("/jiuzhe/system/sysUser/save", this.addForm).then(result => {
                                 this.open = false;
                                 this.getList();
                             });
@@ -296,7 +296,7 @@
                     cancelButtonText: '取消',
                     type: 'warning'
                 }).then(() => {
-                    this.$http.post("/sysUser/batchDelete", param).then(result => {
+                    this.$http.post("/jiuzhe/system/sysUser/batchDelete", param).then(result => {
                         if (result.data.success) {
                             this.$message({
                                 type: 'success',

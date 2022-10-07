@@ -71,4 +71,8 @@ public class SysUser extends BaseDomain implements Serializable {
     @ApiModelProperty(value = "更新人")
     @TableField(value = "update_user_id")
     private Long updateUserId;
+    @TableField(value = "false")
+    private String imageCode;
+    @TableField(value = "false")
+    private String imageCodeKey;
 }
