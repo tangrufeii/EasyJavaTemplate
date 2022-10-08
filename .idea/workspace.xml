@@ -56,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OrderService-parent/Order-common/src/main/java/cn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -69,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code3\EasyJavaTemplate\sql" />
       <recent name="D:\code3\EasyJavaTemplate\OrderService-parent\Order-common\src\main\java\cn" />
       <recent name="D:\code3\EasyJavaTemplate\OrderService-parent\OrderService-8004\src\main\resources" />
       <recent name="D:\code3\EasyJavaTemplate\GenteratorCode\src\main\resources" />
       <recent name="D:\code3\EasyJavaTemplate\zuul-server-8882\src\main\java\cn\trf" />
-      <recent name="D:\code3\EasyJavaTemplate\SystemService-parent\SystemService-8003\src\main\java\cn" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.wujiangbo.domain" />
@@ -181,7 +181,7 @@
       <workItem from="1664947600659" duration="1814000" />
       <workItem from="1665047509593" duration="6650000" />
       <workItem from="1665099267925" duration="23666000" />
-      <workItem from="1665134491456" duration="22262000" />
+      <workItem from="1665134491456" duration="22643000" />
     </task>
     <servers />
   </component>
